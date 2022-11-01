@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+.container {
+    margin: 10px 30px 10px 30px;
+    padding: 10px 30px 10px 30px;
+    margin: auto;
+    max-width: 800px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    font-family: 'Fuzzy bubbles', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.1em;
+    color: black;
+    background-color: aliceblue;
+}
+
+.info {
+    line-height: normal;
+    display: flex;
+}
+
+.info-text p {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+
+}
+
+.info-text {
+    margin-left: 15px;
+}
+
+.info img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+}
+
+.info-text a {
+    text-decoration: none;
+}
+
+.hobby {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: rgb(241, 252, 195);
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.hobby ol {
+    color: rgb(116, 115, 115);
+    text-decoration: underline;
+}
+
+.hobby li {
+    padding: 5px 0;
+}
+
+.work h3 {
+font-weight: lighter;
+font-style: italic;
+opacity: .9;
+text-decoration: underline;
+font-size: 22px;
+}
+
+.work table{
+    border-width: 4px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 30px;
+    word-spacing: 7px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: solid;
+    border-left: solid;
+    border-color: rgba(34, 34, 143, 0.658);
+    background-color: rgb(250, 255, 224);
+}
+
+.work h3 {
+    text-align: center;
+}
+
+.work tr:nth-child(4) {
+    background-color: gray;
+    color: white;
+}
+
+.work table tr th {
+    padding: 3px;
+    border: 1px solid darkred;
+}
+
+.work table tr td {
+    padding: 5px;
+    border-right: 1px dashed darkred;
+    border-bottom: 1px dashed darkred;
+}
+
+.work table tr td:first-child {
+    border-left: 1px dashed darkred;
+}
+
+.work table tr:last-child {
+    padding-bottom: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+    /* display: inline-block; */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media(max-width:750px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: firebrick
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    color: dark;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    background-color: bisque;
+    padding: 10px 10px;
+    color: maroon;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: blue;
+    opacity: .8;
+}
+
+.btn:visited {
+    color: purple;
+}
+
+@media (max-width: 750px) {
+    .info {
+display: block;
+text-align: center;
+    }
+}
